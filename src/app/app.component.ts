@@ -10,6 +10,7 @@ export class AppComponent {
   foods = [
     {value: 'steak-0', viewValue: 'Steak'},
     {value: 'pizza-1', viewValue: 'Pizza'},
-    {value: 'tacos-2', viewValue: 'Tacos'}
+    {value: 'tacos-2', viewValue: 'Tacos'},
+    {value: 'tacos-3', viewValue: 'Tacos 3'}
   ];
 }
