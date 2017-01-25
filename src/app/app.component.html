@@ -1,3 +1,9 @@
 <h1>
   {{title}}
 </h1>
+
+<md-select placeholder="Favorite food">
+   <md-option *ngFor="let food of foods" [value]="food.value">
+     {{ food.viewValue }}
+   </md-option>
+</md-select>
